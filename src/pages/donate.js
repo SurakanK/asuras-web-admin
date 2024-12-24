@@ -1,8 +1,6 @@
 import * as React from "react"
 import styled from "styled-components";
 import Layout from "../components/layout/layout";
-import bannerDonate from "../images/banner/bannerDonate.png"
-import qrCode from "../images/qrcode/qr.jpg"
 
 const MainDiv = styled.div`
   align-items: center;
@@ -62,8 +60,7 @@ const Donate = () => {
         <LayoutDiv>
           <h1 style={{ color: "#27374D" }}>ขอบคุณสำหรับทุกการสนับสนุน</h1>
           <LayoutImageDiv>
-            <ImageBanner src={bannerDonate} />
-            <ImageQr src={qrCode} />
+            
           </LayoutImageDiv>
         </LayoutDiv>
       </MainDiv>
